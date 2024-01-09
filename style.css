@@ -179,6 +179,7 @@
     border-radius: 8px;
     background: #F00;
     padding: 16px 32px;
+    cursor: pointer;
 }
 
 /* coming soon  */
@@ -242,4 +243,289 @@
     margin-bottom: 16px;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* what is functional */
+#functional{
+    margin-top:120px;
+}
+#functional .functional-content{
+    text-align: center;
+}
+#functional h4{
+    text-transform: uppercase;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 16px;
+}
+#functional h1{
+    text-transform: uppercase;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+#functional h1 span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+#functional p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    width: 1068px;
+    text-align: center;
+    margin: auto;
+}
+.functional-img-wrapper{
+    position: relative;
+    width:1320px;
+    margin: auto;
+    margin-top: 800px;
+}
+.red-rectangle,.gift-box,.discount,.red-girl{
+    position:absolute;
+    
+}
+.red-rectangle{
+    bottom: 0;
+    left:0
+}
+.gift-box{
+    bottom: 20px;
+    left: 30px;
+}
+.red-girl{
+    bottom: 228px;
+    right: 0;
+}
+.discount{
+    bottom:270px;
+    z-index: 9;
+}
+
+/* portfolio */
+#portfolio{
+    text-align: left;
+    padding-top: 120px;
+    width: 1320px;
+    margin: auto;
+}
+#portfolio h4{
+    text-transform: uppercase;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 16px;
+}
+#portfolio h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 22px;
+}
+#portfolio p{
+    width: 900px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin:0;
+    margin-bottom: 48px;
+}
+.portfolio-container{
+    display: grid;
+    grid-gap: 24px 24px;
+    grid-template-rows: 450px 450px;
+    grid-template-columns: 424px  424px 424px;
+    overflow: hidden;
+}
+.img-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    top:100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.portfolio-img-container{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    transition: 0.5s;
+}
+.portfolio-img-container:hover .img-overlay{
+    top: 0%;
+}
+.portfolio-img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.item-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.item-2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.item-3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.item-4{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.item-5{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.item-6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+/* Newsletter */
+#newsletter{
+    width: 1320px;
+    margin: auto;
+    margin-top: 120px;
+    background-color: #FFF7E8;
+    text-align: center;
+    border-radius: 16px;
+    padding: 80px 0;
+}
+#newsletter h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+#newsletter p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    width: 900px;
+    margin: auto;
+    font-weight: 400;
+}
+.form-container{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-form{
+    display: flex;
+    margin: auto;
+}
+.subscribe-form input{
+    height: 72px;
+    width: 438px;
+    border-radius: 36px 0 0 36px;
+    border: none;
+    padding-left: 30px;
+}
+.subscribe-form button{
+    background-color: #ff0000;
+    height: 72px;
+    width: 210px;
+    border: none;
+    border-radius: 0 36px 36px 0;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* footer */
+#footer{
+    margin-top: 120px;
+    background-color: #16033C;
+    padding: 120px 0;
+}
+.footer-content{
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.footer-address{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 375px;
+}
+.footer-contact{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-contact ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-contact li{
+    list-style: none;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social{
+    width: 1320px;
+    margin: auto;
+}
+.footer-social ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-social li{
+    list-style: none;
+    margin: 48px 12px;
+}
+
+#footer .footer-social hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-caption{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
